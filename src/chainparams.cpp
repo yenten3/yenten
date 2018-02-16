@@ -127,7 +127,7 @@ public:
         genesis.nTime = 1507032223;
         genesis.nNonce = 238202;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00002a66f0c687f619934409d376c52fe721833f05940e4c20deaaa0122d7fb8"));
+        assert(hashGenesisBlock == uint256("0x00003c2b99c25897ca022b1f143af0fc4eb9e877bbb666a2f14ff6d8acb6a5e0"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
